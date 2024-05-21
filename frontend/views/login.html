@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="../public/css/global2.css" />
+    <link rel="stylesheet" href="../public/css/login.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" />
+  </head>
+  <body>
+    <div class="desktop">
+      <header class="main">
+        <div class="login-container">
+          <div class="logo-frame">  
+            <div class="logo">
+              <img class="logo-icon" loading="lazy" alt="" src="../public/images/logo.png"/>
+
+              <h1 class="travalizer">Login TODO</h1>
+            </div>
+          </div>
+          <form class="login-form" id="form-login">
+            <div class="form-group">
+              <label for="email" >Email</label>
+              <div class="email-input" >
+                <input class="form-control" type="email" id="email" name="email" required>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="password">Password</label>
+              <div class="password-input">
+                <input class="form-control" type="password" id="password" name="password" required>
+                <button class="button-eye-off">
+                  <img class="eye-off" alt="" src="../public/images/eye--off.svg" />
+                </button>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <input class="check-box-default" checked="true" type="checkbox" id="remember_me">
+              <label class="remember" for="remember_me">Remember me</label>
+            </div>
+          
+            <div class="button">
+              <button type="submit" class="login-button" id="login-button">Login</button>
+              <button type="submit" class="signup-button" id="signup-button">Sign Up</button>
+            </div>
+          </form>
+
+        </div>
+        <img class="illustration-icon" loading="lazy" alt="" src="../public/images/pic3.jpg"/>
+
+        <script src="../public/js/login.js"></script>
+      </header>
+    </div>
+  </body>
+</html>

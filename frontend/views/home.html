@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>ToDo|Home</title>
+    <link rel="stylesheet" href="../public/css/global.css" />
+    <link rel="stylesheet" href="../public/css/home.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin Sans:wght@400&display=swap"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main-screen">
+      <div class="top-navigation-bar">
+        <div class="title-box">
+          <h1>home</h1>
+        </div>
+      </div>
+
+        <!-- Thanh chức năng -->
+      <div class="sidebar-frame">
+
+        <!-- Thanh logo -->
+        <div class="todo-bar-frame">
+
+            <img class="icon" loading="eager" src="../public/images/logo.png" />
+            <div class="to-do"><a href="./home.html" class="hyperhome">TO-DO</a></div>
+
+        </div>
+
+        <!-- Hộp task -->
+        <div class="tasks-box">
+            <img class="tasks-icon" loading="eager"  src="../public/images/task.png" />
+            <div class="tasks"><a href="./task.html" class="hyper">tasks</a></div>
+        </div>
+
+        <!-- Hộp important -->
+        <div class="important-box">
+          <img class="important-icon" loading="eager" alt="importanticon" src="../public/images/impor.png"/>
+          <div class="important"><a href="./important.html" class="hyper">important</a></div>
+        </div>
+
+        <!-- Hộp completed -->
+        <div class="completed-box">
+          <img class="completed-icon"  loading="eager" alt="" src="../public/images/complete.png" />
+          <div class="completed"><a href="./completed.html" class="hyper">completed</a></div>
+        </div>
+
+        <!-- Hộp Today -->
+        <div class="today-box">
+          <img class="today-icon"  loading="eager" alt="" src="../public/images/today.png" />
+          <div class="today"><a href="./today.html" class="hyper">today</a></div>
+        </div>
+
+        <!-- Hộp search -->
+        <div class="search-box">
+          <img class="search-icon"  loading="eager" alt="" src="../public/images/search.png" />
+          <div class="search"><a href="./search.html" class="hyper">search</a></div>
+        </div>
+
+
+      </div>
+      <div class="profile-container" id="profile-container">
+        <div class="avatar">
+            <img src="../public/images/avatar.png" alt="Avatar">
+        </div>
+        <!-- <div class="username">
+            <h1>Username</h1>
+        </div>
+        <div class="details">
+            <p>Email: </p>
+            <p>Info: </p>
+        </div>
+        <button class="change-info-button" onclick="openEditDialog()">Change Information</button> -->
+      </div>
+
+    <!-- Modal Dialog for Editing Profile -->
+      <div id="edit-dialog" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeEditDialog()">&times;</span>
+            <!-- Add input fields and form for editing profile information here -->
+            <h2>Edit Profile Information</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+                <br>
+                <label for="info">Info:</label>
+                <input type="text" id="info" name="info">
+                <br>
+      
+                <button class="save-info-button" id="saveinfo">Save Information</button>
+            </form>
+        </div>
+      </div>
+    <script src="../public/js/home.js"></script>
+    </div>
+  </body>
+</html>

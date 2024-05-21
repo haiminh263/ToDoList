@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-josefin-sans: "Josefin Sans";
+
+  /* font sizes */
+  --font-size-13xl: 2vw;
+  --font-size-21xl: 2.5vw;
+
+  /* Colors */
+  --color-honeydew: #dbeadd;
+  --color-lightgray: #c4dcd3;
+  --color-lavenderblush: #fff1f1;
+  --color-darkslategray-100: #25332e;
+  --color-dimgray: #5b5b5b;
+  --color-darkolivegreen: #0d5329;
+  --color-gainsboro: #d9d9d9;
+
+  /* Gaps */
+  --gap-8xs: 0.3vw;
+  --gap-7xl: 1.6vw;
+  --gap-10xl: 1.8vw;
+  --gap-lg: 1.1vw;
+  --gap-6xl: 1.5vw;
+  --gap-lgi: 1.2vw;
+  --gap-2xs: 0.7vw;
+
+  /* Paddings */
+  --padding-7xs: 0.4vw;
+  --padding-base: 1vw;
+  --padding-6xs: 0.4vw;
+  --padding-2xs: 0.7vw;
+  --padding-6xl: 1.5vw;
+  --padding-8xs: 0.3vw;
+  --padding-10xs: 0.2vw;
+  --padding-17xl: 2.2vw;
+  --padding-3xl: 1.4vw;
+  --padding-29xl: 3vw;
+  --padding-4xs: 0.6vw;
+  --padding-689xl: 44vw;
+  --padding-21xl: 2.5vw;
+  --padding-mid: 1.1vw;
+  --padding-151xl: 10.6vw;
+
+  /* Border radiuses */
+  --br-13xl: 2vw;
+  --br-8xs: 0.3vw;
+  --br-3xs: 0.6vw;
+  --br-11xs: 0.1vw;
+  --br-5xl: 1.5vw;
+}

@@ -1,0 +1,378 @@
+/* Main */
+.main-screen {
+  position: static;
+  background-color: #F9EFDB;
+  width: 100vw;
+  height: 100vh;
+  overflow: overlay;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-josefin-sans);
+}
+.hyper {
+  text-decoration: none;
+  font-size: var(--font-size-13xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-josefin-sans);
+}
+.hyperhome {
+  text-decoration: none;
+  font-size: 50px;
+  color: #525E75;
+  font-family: 'Rubik Burned', system-ui;
+}
+/* Top-bar */
+.top-navigation-bar {
+  position: relative;
+  top: 0;
+  left: 20vw;
+  width: 80vw;
+  height: 16vh;
+  background-color: #F3D7CA;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-josefin-sans);
+}
+.title-box {
+  top: 8vh;
+  margin-left: 5vw;
+  width: 80vw;
+  height: 8vh; 
+  background-color: #F9F7C9;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: #E6A4B4;
+  font-family: var(--font-josefin-sans);
+}
+.title-box h1 {
+  margin-left: 10vw;
+  font-style: italic;
+}
+
+/* Thanh Logo */
+.todo-bar-frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.todo-bar-frame {
+  width: 100%;
+  height: 30%;
+  align-items: center;
+  padding: 0 0 ;
+  background-color: #FFB996;
+  border-radius: 0 0 5px 5px;
+  overflow:hidden;
+  box-sizing: border-box;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkolivegreen);
+  /* padding: 0 0 var(--padding-29xl); */
+  gap: var(--gap-lg);
+}
+
+.icon {
+  width: 40%;
+  height: 80%;
+  /* background-color:red; */
+}
+
+.to-do {
+  position: relative;
+  z-index: 1;
+}
+
+
+/* Task */
+.tasks-icon {
+  border-radius: var(--br-11xs);
+  width: 3vw;
+  height: 3vh;
+  min-height: 5vh;
+  padding-left: 1.05vw;
+  padding-right: 1vw;
+}
+
+.tasks,
+.tasks-icon {
+  position: relative;
+  /* z-index: 1; */
+}
+
+.tasks-box,
+.sidebar-frame {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.tasks-box {
+  border-radius: var(--br-3xs);
+  background-color: #EBD9B4;
+  width: 100%;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-base) var(--padding-6xs);
+  gap: var(--gap-7xl);
+  /* z-index: 1; */
+}
+
+
+/* Important */
+.important-icon {
+  border-radius: var(--br-11xs);
+  width: 5vw;
+  height: 5vh;
+  min-height: 5vh;
+}
+
+.important,
+.important-icon {
+  position: relative;
+  /* z-index: 1; */
+}
+
+.important-box,
+.sidebar-frame {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.important-box {
+  border-radius: var(--br-3xs);
+  background-color: #EBD9B4;
+  width: 100%;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-base) var(--padding-6xs);
+  gap: var(--gap-7xl);
+  /* z-index: 1; */
+}
+
+/* Completed */
+.completed-icon {
+  border-radius: var(--br-11xs);
+  width: 5vw;
+  height: 5vh;
+  min-height: 5vh;
+}
+
+.completed,
+.completed-icon {
+  position: relative;
+  /* z-index: 1; */
+}
+
+.completed-box,
+.sidebar-frame {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.completed-box {
+  border-radius: var(--br-3xs);
+  background-color: #EBD9B4;
+  width: 100%;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-base) var(--padding-6xs);
+  gap: var(--gap-7xl);
+  /* z-index: 1; */
+}
+
+
+/* Today */
+.today-icon {
+  border-radius: var(--br-11xs);
+  width: 5vw;
+  height: 5vh;
+  min-height: 5vh;
+}
+
+.today,
+.today-icon {
+  position: relative;
+  /* z-index: 1; */
+}
+
+.today-box,
+.sidebar-frame {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.today-box {
+  border-radius: var(--br-3xs);
+  background-color: #EBD9B4;
+  width: 100%;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-base) var(--padding-6xs);
+  gap: var(--gap-7xl);
+  /* z-index: 1; */
+}
+
+/* Search */
+.search-icon {
+  border-radius: var(--br-11xs);
+  width: 5vw;
+  height: 5vh;
+  min-height: 5vh;
+}
+
+.search,
+.search-icon {
+  position: relative;
+  /* z-index: 1; */
+}
+
+.search-box,
+.sidebar-frame {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.search-box {
+  border-radius: var(--br-3xs);
+  background-color: #EBD9B4;
+  width: 100%;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-base) var(--padding-6xs);
+  gap: var(--gap-7xl);
+  /* z-index: 1; */
+}
+
+/* Thanh chức năng */
+.sidebar-frame {
+  position: absolute;
+  top: 0vh;
+  left: 0 vw;
+  background-color: #FDF0D1;
+  box-shadow: 0 2px 2px 2px #FFC5C5;
+  width: 25%;
+  height: 100%;
+  flex-direction: column;
+  padding: 0vh 0 20vh;
+  gap: 2vh;
+
+}
+
+/* Style the profile container */
+.profile-container {
+  top: 20vh;
+  left: 20vw;
+  margin-left: 20vw; /* Đẩy lùi vào bên trái 20vw */
+  width: 80vw;
+  height: 84vh;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Style the avatar */
+.avatar img {
+  width: 150px; /* Điều chỉnh kích thước avatar tùy ý */
+  height: 150px; /* Điều chỉnh kích thước avatar tùy ý */
+  border-radius: 20%; /* Để làm hình tròn */
+  margin: 20px auto; /* Canh giữa avatar */
+  display: block;
+  background-color: #F6B17A;
+  margin-top: 10vh;
+}
+
+/* Style the username */
+.username h1 {
+  font-size: 24px; /* Điều chỉnh kích thước và kiểu chữ tùy ý */
+  color: #333; /* Điều chỉnh màu chữ tùy ý */
+}
+
+/* Style the details (email and info) */
+.details {
+  margin-top: 20px; /* Khoảng cách giữa username và details */
+  font-size: 18px; /* Điều chỉnh kích thước và kiểu chữ tùy ý */
+  color: #777; /* Điều chỉnh màu chữ tùy ý */
+}
+
+/* Add more styles as needed */
+/* Thêm CSS cho nút "Change Information" */
+.change-info-button {
+  background-color: #E5E1DA; /* Màu nền của nút */
+  color: #76453B; /* Màu chữ trắng */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: none; /* Loại bỏ viền */
+  padding: 10px 20px; /* Khoảng cách trong nút */
+  cursor: pointer; /* Biến con trỏ thành dấu tay khi di chuột vào */
+  font-size: 16px; /* Điều chỉnh kích thước chữ */
+  margin-top: 5vh;
+}
+
+.change-info-button:hover {
+  background-color: #F6B17A; /* Màu nền khi hover */
+}
+
+/* Thêm CSS cho modal dialog */
+.modal {
+  display: none; /* Mặc định ẩn modal */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7); /* Màu nền mờ */
+}
+
+.modal-content {
+  background-color: #DCF2F1;
+  margin: 10% auto; /* Điều chỉnh khoảng cách top để căn giữa */
+  padding: 20px;
+  border-radius: 5px;
+  width: 80%; /* Điều chỉnh chiều rộng của modal tùy ý */
+  height: 50vh; /* Sử dụng chiều cao tự động */
+  position: relative;
+}
+.modal-content h2 {
+  text-align: center;
+}
+
+/* Thay đổi kích thước của input và textarea trong modal */
+.modal-content input {
+  width: 65%; /* Để input và textarea chiếm toàn bộ chiều rộng của modal */
+  height: auto; /* Sử dụng chiều cao tự động */
+  margin-bottom: 10px; /* Điều chỉnh khoảng cách dưới giữa các input và textarea */
+  margin-left: 10vw;
+}
+#name {
+  margin-left: 7.9vw;
+}
+#email {
+  margin-left: 8.35vw;
+}
+.save-info-button {
+  background-color: #E5E1DA; /* Màu nền của nút */
+  color: #76453B; /* Màu chữ trắng */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: none; /* Loại bỏ viền */
+  padding: 10px 20px; /* Khoảng cách trong nút */
+  cursor: pointer; /* Biến con trỏ thành dấu tay khi di chuột vào */
+  font-size: 16px; /* Điều chỉnh kích thước chữ */
+  margin-top: 5vh;
+  margin-left: 32vw;
+  margin-right: 32vw;
+}
+
+.save-info-button:hover {
+  background-color: #F6B17A; /* Màu nền khi hover */
+}
+.close {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+/* Add more styles as needed */

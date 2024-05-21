@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>ToDo|Search</title>
+    <link rel="stylesheet" href="../public/css/global.css" />
+    <link rel="stylesheet" href="../public/css/search.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin Sans:wght@400&display=swap"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main-screen">
+      <div class="top-navigation-bar">
+        <div class="title-box">
+          <h1>search</h1>
+        </div>
+      </div>
+
+        <!-- Thanh chức năng -->
+      <div class="sidebar-frame">
+
+        <!-- Thanh logo -->
+        <div class="todo-bar-frame">
+
+            <img class="icon" loading="eager" src="../public/images/logo.png" />
+            <div class="to-do"><a href="./home.html" class="hyperhome">TO-DO</a></div>
+
+        </div>
+
+        <!-- Hộp task -->
+        <div class="tasks-box">
+            <img class="tasks-icon" loading="eager"  src="../public/images/task.png" />
+            <div class="tasks"><a href="./task.html" class="hyper">tasks</a></div>
+        </div>
+
+        <!-- Hộp important -->
+        <div class="important-box">
+          <img class="important-icon" loading="eager" alt="importanticon" src="../public/images/impor.png"/>
+          <div class="important"><a href="./important.html" class="hyper">important</a></div>
+        </div>
+
+        <!-- Hộp completed -->
+        <div class="completed-box">
+          <img class="completed-icon"  loading="eager" alt="" src="../public/images/complete.png" />
+          <div class="completed"><a href="./completed.html" class="hyper">completed</a></div>
+        </div>
+
+        <!-- Hộp Today -->
+        <div class="today-box">
+          <img class="today-icon"  loading="eager" alt="" src="../public/images/today.png" />
+          <div class="today"><a href="./today.html" class="hyper">today</a></div>
+        </div>
+
+        <!-- Hộp search -->
+        <div class="search-box">
+          <img class="search-icon"  loading="eager" alt="" src="../public/images/search.png" />
+          <div class="search"><a href="./search.html" class="hyper">search</a></div>
+        </div>
+
+      </div>
+
+      <!-- Khung làm việc  -->
+      <div class="task-manage">
+
+        <!-- Search task  -->
+        <div class="create-task-button">
+          <span class="plus-sign">🔎</span>
+          <label for="searchInput"></label>
+          <input type="text" id="searchInput" name="searchInput" required>
+          <button id="search-button">Search</button>
+        </div>
+
+
+        <!-- Danh sách Task  -->
+        <div class="task-container" id="taskContainer">
+          <!-- Nội dung tasks sẽ được thêm vào đây bằng JavaScript -->
+        </div>
+        <!-- Kết thúc danh sách  -->
+
+      </div>  
+      <!-- kết thúc task-manage  -->
+
+
+      <script src="../public/js/search.js"></script>
+    </div>
+    <!-- Kết thúc main screen  -->
+  </body>
+</html>
