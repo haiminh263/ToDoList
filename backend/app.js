@@ -4,7 +4,7 @@ import bodyParser from "body-parser";
 import { dirname, join } from "path";
 import { fileURLToPath } from "url";
 import mongoose from 'mongoose';
-import taskRoutes from './routes/taskRoute.js'; // Đảm bảo rằng đường dẫn đến file route là đúng
+import taskRoutes from './routes/taskRoute.js';
 import homeRoutes from './routes/homeRoute.js';
 import importantRoutes from './routes/importantRoute.js';
 import completedRoutes from './routes/completedRoute.js';
