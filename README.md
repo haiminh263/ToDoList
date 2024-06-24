@@ -48,3 +48,4 @@ Nếu bạn có bất kỳ câu hỏi hoặc đề xuất nào, vui lòng mở m
 
 ## Ghi Chú và Lời Cảm Ơn
 Cảm ơn bạn đã quan tâm đến dự án "To Do List". Chúng tôi hy vọng ứng dụng này sẽ giúp quản lý công việc hàng ngày của bạn trở nên dễ dàng hơn.
+
